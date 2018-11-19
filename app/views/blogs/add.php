@@ -4,7 +4,7 @@
         <div class="col-lg-12">
             <div class='jumbotron'>
                 <h4 class='mb-4'>Add blog</h4>               
-                <form action="<?= URLROOT; ?>/blogs/add" method="post">
+                <form action="<?= URLROOT; ?>/blogs/add" method="post" enctype="multipart/form-data">
                     <div class="form-group">
                         <label for="title">Blog title</label>
                         <input type="text" class="form-control" name='title' aria-describedby="postTitle">

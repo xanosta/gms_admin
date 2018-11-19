@@ -26,7 +26,7 @@
         </tr>
         <?php endforeach ?>
     </tbody>
-
+   
 <!-- table footer -->
 <?php require APPROOT . '/views/inc/table.footer.php'; ?>
 

@@ -27,7 +27,11 @@
                 <table class="table">
                 <thead>
                     <tr>
+                        <?php if($_SERVER['REQUEST_URI'] == SUBDOMAIN . '/blogs') : ?>
                         <th scope="col">Blog title</th>
+                        <?php elseif($_SERVER['REQUEST_URI'] == SUBDOMAIN . '/picks') : ?>
+                        <th scope="col">Pick title</th>
+                        <?php endif ?>
                         <th scope="col">Image</th>
                         <th scope="col">Action</th>
                     </tr>
